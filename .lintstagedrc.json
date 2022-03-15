@@ -1,0 +1,10 @@
+{
+  "*.(js|ts)": [
+    "eslint --fix",
+    "prettier --write",
+    "npm test --bail --findRelatedTests"
+  ],
+  "*.json": [
+    "prettier --write"
+  ]
+}
