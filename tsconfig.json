@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
-    "target": "ESNext",
+    "target": "ES2019",
     "rootDir": ".",
     "lib": [
-      "DOM",
-      "ESNext"
+      "ES2020"
     ],
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
@@ -22,7 +21,8 @@
   },
   "include": [
     "src/**/*.ts",
-    "tests/**/*.ts"
+    "tests/**/*.ts",
+    "serverless.ts"
   ],
   "exclude": [
     "node_modules"
