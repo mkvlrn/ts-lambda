@@ -14,6 +14,6 @@ an opinionated typescript template for aws lambda using the serverless framework
 
 1. clone
 2. do your thing
-3. `yarn dev` to start `src/index.ts` without compiling
-4. `yarn deploy` to deploy
-5. `yarn destroy` to remove services
+3. `npm run dev` to start `src/index.ts` without compiling
+4. `npm run deploy` to deploy
+5. `npm run destroy` to remove services
