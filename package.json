@@ -22,9 +22,8 @@
     "test": "jest --passWithNoTests --coverage --config .jestrc.json",
     "deploy": "sls deploy",
     "destroy": "sls remove",
-    "prepare": "npx simple-git-hooks"
+    "prepare": "npx husky install"
   },
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
@@ -43,6 +42,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.1.4",
+    "husky": "^7.0.4",
     "jest": "^27.5.1",
     "lint-staged": "^12.3.7",
     "prettier": "^2.6.2",
