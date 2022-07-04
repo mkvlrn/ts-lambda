@@ -5,6 +5,6 @@
     "project": "./tsconfig.json"
   },
   "extends": [
-    "@mkvlrn/eslint-config/typescript"
+    "@mkvlrn/eslint-config"
   ]
 }

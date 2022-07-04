@@ -1,6 +1,6 @@
 /* eslint-disable import/no-unresolved */
 
-import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda'
+import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 
 export async function handler(event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> {
   return {
@@ -9,5 +9,5 @@ export async function handler(event: APIGatewayProxyEvent): Promise<APIGatewayPr
       message: 'Hello, World!',
       event,
     }),
-  }
+  };
 }
