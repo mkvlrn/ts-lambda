@@ -1,6 +1,6 @@
 /* eslint-disable import/no-import-module-exports */
 
-import type { AWS } from '@serverless/typescript'
+import type { AWS } from '@serverless/typescript';
 
 const config: AWS = {
   service: 'ts-lambda',
@@ -27,6 +27,6 @@ const config: AWS = {
       ],
     },
   },
-}
+};
 
-module.exports = config
+module.exports = config;
