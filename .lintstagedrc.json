@@ -1,8 +1,14 @@
 {
-  "*.(js|ts)": [
+  "*.ts": [
     "eslint --fix",
     "prettier --write",
-    "jest --bail --findRelatedTests --config .jestrc.json"
+    "tsc --skipLibCheck --noEmit",
+    "yarn test --bail"
+  ],
+  "*.js": [
+    "eslint --fix",
+    "prettier --write",
+    "yarn test --bail"
   ],
   "*.json": [
     "prettier --write"
